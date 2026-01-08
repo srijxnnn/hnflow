@@ -81,42 +81,6 @@ npm run android
 # Web
 npm run web
 ```
-
-## Project Structure
-
-```
-hnflow/
-├── app/                    # Expo Router pages (file-based routing)
-│   ├── _layout.tsx        # Root layout
-│   ├── index.tsx          # Home/search screen
-│   └── item/
-│       ├── _layout.tsx    # Item layout
-│       └── [id].tsx       # Dynamic item detail page
-├── api/
-│   └── hn.ts              # Hacker News API client
-├── components/            # Reusable UI components
-│   ├── Chip.tsx           # Filter/sort chip component
-│   ├── CommentItem.tsx    # Comment thread component
-│   ├── Header.tsx         # App header
-│   ├── HTMLText.tsx       # HTML content renderer
-│   ├── SearchBar.tsx      # Search input component
-│   ├── SearchItem.tsx     # Search result item
-│   ├── StoryDetailed.tsx  # Story detail view
-│   └── StoryItem.tsx      # Story list item
-├── hooks/
-│   └── useFetch.ts        # Custom data fetching hook
-├── types/
-│   └── api.d.ts           # TypeScript type definitions
-├── utils/                 # Utility functions
-│   ├── comment.ts         # Comment utilities
-│   ├── link.ts            # Link handling
-│   ├── time.ts            # Time formatting
-│   └── url.ts             # URL utilities
-└── assets/                # Images, fonts, icons
-```
-
-## Key Features Explained
-
 ### Search & Filtering
 
 The app uses the Hacker News Algolia API to provide powerful search capabilities:
