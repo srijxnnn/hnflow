@@ -42,7 +42,7 @@ const ItemScreen = () => {
           </>
         ) : (
           data?.type == "comment" && (
-            <ScrollView>
+            <ScrollView showsVerticalScrollIndicator={false}>
               <CommentItem comment={data} />
               <View style={{ paddingBottom: insets.bottom }}></View>
             </ScrollView>

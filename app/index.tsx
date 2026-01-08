@@ -175,6 +175,7 @@ const Index = () => {
         <FlatList
           data={data?.hits}
           renderItem={({ item }) => <SearchItem item={item}></SearchItem>}
+          showsVerticalScrollIndicator={false}
           ListFooterComponent={
             <View
               className="flex-row gap-x-2 my-3 items-center justify-center"
