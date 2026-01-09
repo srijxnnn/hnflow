@@ -43,6 +43,11 @@ const Index = () => {
         value: SearchFilters["sort"];
       }
     | {
+        type: "time";
+        label: string;
+        value: SearchFilters["timeRange"];
+      }
+    | {
         type: "button";
         label: string;
         icon?: keyof typeof Ionicons.glyphMap;
@@ -69,6 +74,17 @@ const Index = () => {
           onPress={() =>
             filter.sort !== item.value &&
             setFilter((f) => ({ ...f, sort: item.value, page: 0 }))
+          }
+        ></Chip>
+      );
+    } else if (item.type === "time") {
+      return (
+        <Chip
+          label={item.label}
+          active={filter.timeRange === item.value}
+          onPress={() =>
+            filter.timeRange !== item.value &&
+            setFilter((f) => ({ ...f, timeRange: item.value, page: 0 }))
           }
         ></Chip>
       );
@@ -126,6 +142,14 @@ const Index = () => {
   const sortChips: ChipItem[] = [
     { type: "sort", label: "Popularity", value: "popularity" },
     { type: "sort", label: "Date", value: "date" },
+  ];
+
+  const timeChips: ChipItem[] = [
+    { type: "time", label: "Last 24h", value: "24h" },
+    { type: "time", label: "Past week", value: "7d" },
+    { type: "time", label: "Past month", value: "30d" },
+    { type: "time", label: "Past year", value: "1y" },
+    { type: "time", label: "All time", value: "all" },
   ];
 
   useEffect(() => {
@@ -240,6 +264,19 @@ const Index = () => {
                 data={sortChips}
                 renderItem={({ item }) => ChipListItem(item)}
               />
+            </View>
+            <View className="flex-row flex-wrap items-center pb-3">
+              <Text className="text-accent font-text-semibold">
+                Posted within:{" "}
+              </Text>
+              {timeChips.map((item, index) => (
+                <View
+                  key={index}
+                  className={`${index === 0 ? "ml-1" : ""} mr-[0.5] mb-2`}
+                >
+                  <ChipListItem {...item} />
+                </View>
+              ))}
             </View>
           </BottomSheetView>
         </BottomSheetModal>

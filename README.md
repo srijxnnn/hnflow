@@ -2,6 +2,12 @@
 
 A modern, cross-platform Hacker News client built with React Native and Expo. Browse stories, comments, jobs, and more from Hacker News with a beautiful, native mobile experience.
 
+## Screenshots
+
+![img](/screenshots/front_page.jpg)
+![img](/screenshots/post.jpg)
+![img](/screenshots/filters.jpg)
+
 ## Features
 
 - 🔍 **Advanced Search**: Search through Hacker News stories and comments with real-time filtering
@@ -20,7 +26,7 @@ A modern, cross-platform Hacker News client built with React Native and Expo. Br
 - **React**: 19.1.0
 - **Routing**: [Expo Router](https://docs.expo.dev/router/introduction/) (file-based routing)
 - **Styling**: [NativeWind](https://www.nativewind.dev/) v4 (Tailwind CSS for React Native)
-- **UI Components**: 
+- **UI Components**:
   - [@gorhom/bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) for modal interactions
   - [@expo/vector-icons](https://docs.expo.dev/guides/icons/) for icons
 - **HTML Rendering**: [react-native-render-html](https://github.com/meliorence/react-native-render-html)
@@ -37,12 +43,14 @@ A modern, cross-platform Hacker News client built with React Native and Expo. Br
 ## Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/srijxnnn/hnflow.git
    cd hnflow
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -59,11 +67,13 @@ A modern, cross-platform Hacker News client built with React Native and Expo. Br
 ### Development
 
 Start the Expo development server:
+
 ```bash
 npm start
 ```
 
 Then choose your platform:
+
 - Press `i` to open iOS simulator
 - Press `a` to open Android emulator
 - Press `w` to open in web browser
@@ -81,9 +91,11 @@ npm run android
 # Web
 npm run web
 ```
+
 ### Search & Filtering
 
 The app uses the Hacker News Algolia API to provide powerful search capabilities:
+
 - **Query Search**: Real-time search with 250ms debounce
 - **Tag Filtering**: Filter by content type (Front Page, Stories, Comments, Jobs, etc.)
 - **Sorting**: Sort results by popularity or date
@@ -158,7 +170,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is private.
+See [LICENSE.md](LICENSE.md)
 
 ## Acknowledgments
 

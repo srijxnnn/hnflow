@@ -105,6 +105,6 @@ interface SearchFilters {
     | "show_hn"
     | "launch_hn";
   sort: "popularity" | "date";
-  timeRange: "24h" | "7d" | "30d" | "all";
+  timeRange: "24h" | "7d" | "30d" | "1y" | "all";
   page: number;
 }

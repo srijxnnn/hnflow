@@ -1,7 +1,8 @@
+import { icons } from "@/assets/icons";
 import Entypo from "@expo/vector-icons/Entypo";
 import { Link, useRouter } from "expo-router";
 import React from "react";
-import { Text, View } from "react-native";
+import { Image, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 const Header = () => {
@@ -14,6 +15,7 @@ const Header = () => {
         <Link href={"/"} className="absolute left-8">
           <Entypo name="home" size={22} color="#b2b2b2" />
         </Link>
+        <Image source={icons.logo} className="h-8 w-8"></Image>
         <Text className="text-accent text-3xl font-heading">HNFlow</Text>
       </View>
     </View>
