@@ -1,10 +1,13 @@
-# HNFlow
+<h1 style="display: flex; align-items: center; gap: 10px;">
+  <img src="assets/images/icon.png" width="30" />
+  HNFlow
+</h1>
 
 A modern, cross-platform Hacker News client built with React Native and Expo. Browse stories, comments, jobs, and more from Hacker News with a beautiful, native mobile experience.
 
 ## Screenshots
 
-<p align="center">
+<p style="display: flex; align-items: center; gap: 10px;">
   <img src="screenshots/front_page.jpg" width="200" />
   <img src="screenshots/post.jpg" width="200" />
   <img src="screenshots/filters.jpg" width="200" />
