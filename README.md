@@ -13,6 +13,10 @@
 
 A modern, cross-platform Hacker News client built with React Native and Expo. Browse stories, comments, jobs, and more from Hacker News with a beautiful, native mobile experience.
 
+<p style="display: flex; align-items: center;">
+  <img src="screenshots/hnflow.png" width="600" />
+</p>
+
 ## Screenshots
 
 <p style="display: flex; align-items: center; gap: 10px;">
@@ -180,6 +184,10 @@ eas build --platform android
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Privacy Policy
+
+See [Privacy Policy](https://srijxnnn.github.io/hnflow/privacy-policy) of HNFlow.
 
 ## License
 

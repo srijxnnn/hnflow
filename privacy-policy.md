@@ -58,4 +58,4 @@ If this policy changes, the updated version will be posted at the same URL.
 ## 7. Contact
 
 For questions, contact:  
-**GitHub:** https://github.com/srijxnnn/hnflow
+**GitHub:** [https://github.com/srijxnnn/hnflow](https://github.com/srijxnnn/hnflow)
