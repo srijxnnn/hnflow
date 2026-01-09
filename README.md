@@ -4,9 +4,11 @@ A modern, cross-platform Hacker News client built with React Native and Expo. Br
 
 ## Screenshots
 
-<img src="screenshots/front_page.jpg" width="200" />
-<img src="screenshots/post.jpg" width="200" />
-<img src="screenshots/filters.jpg" width="200" />
+<p align="center">
+  <img src="screenshots/front_page.jpg" width="200" />
+  <img src="screenshots/post.jpg" width="200" />
+  <img src="screenshots/filters.jpg" width="200" />
+</p>
 
 ## Features
 
