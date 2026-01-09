@@ -3,6 +3,14 @@
   HNFlow
 </h1>
 
+![GitHub Repo stars](https://img.shields.io/github/stars/srijxnnn/hnflow?style=flat)
+![GitHub issues](https://img.shields.io/github/issues/srijxnnn/hnflow)
+![GitHub license](https://img.shields.io/github/license/srijxnnn/hnflow)
+![Expo](https://img.shields.io/badge/Expo-54-black)
+![React Native](https://img.shields.io/badge/React%20Native-0.81-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-Yes-blue)
+![Tailwind](https://img.shields.io/badge/NativeWind-Tailwind-blueviolet)
+
 A modern, cross-platform Hacker News client built with React Native and Expo. Browse stories, comments, jobs, and more from Hacker News with a beautiful, native mobile experience.
 
 ## Screenshots
