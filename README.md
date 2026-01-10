@@ -17,6 +17,17 @@ A modern, cross-platform Hacker News client built with React Native and Expo. Br
   <img src="screenshots/hnflow.png" width="600" />
 </p>
 
+## 🧪 Become a Tester
+
+Help improve the app by joining the <a href="https://play.google.com/apps/testing/com.srijxn.hnflow">beta testing program.</a>
+
+After joining, you can download the app from Google Play.
+
+<a href="https://play.google.com/store/apps/details?id=com.srijxn.hnflow">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+       width="200" />
+</a>
+
 ## Screenshots
 
 <p style="display: flex; align-items: center; gap: 10px;">
@@ -27,14 +38,14 @@ A modern, cross-platform Hacker News client built with React Native and Expo. Br
 
 ## Features
 
-- 🔍 **Advanced Search**: Search through Hacker News stories and comments with real-time filtering
-- 📱 **Cross-Platform**: Works on iOS, Android, and Web
-- 🎨 **Modern UI**: Beautiful dark-themed interface built with NativeWind (Tailwind CSS)
-- 📰 **Content Types**: Browse Front Page, Stories, Comments, Ask HN, Show HN, Launch HN, Jobs, and Polls
-- 💬 **Threaded Comments**: View nested comment threads with collapsible comments
-- 🔄 **Sorting Options**: Sort by popularity or date
-- 📄 **Pagination**: Navigate through multiple pages of results
-- ⚡ **Fast & Responsive**: Optimized for performance with efficient data fetching
+- **Advanced Search**: Search through Hacker News stories and comments with real-time filtering
+- **Cross-Platform**: Works on iOS, Android, and Web
+- **Modern UI**: Beautiful dark-themed interface built with NativeWind (Tailwind CSS)
+- **Content Types**: Browse Front Page, Stories, Comments, Ask HN, Show HN, Launch HN, Jobs, and Polls
+- **Threaded Comments**: View nested comment threads with collapsible comments
+- **Sorting Options**: Sort by popularity or date
+- **Pagination**: Navigate through multiple pages of results
+- **Fast & Responsive**: Optimized for performance with efficient data fetching
 
 ## Tech Stack
 
